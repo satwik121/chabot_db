@@ -23,7 +23,7 @@ from dotenv import load_dotenv
 import dotenv
 # import pyodbc
 
-key = st.secrets['key']
+key = st.secrets['sec']['key']
 
 
 def sql_table(input,input_db):
